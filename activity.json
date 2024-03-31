@@ -1,0 +1,136 @@
+{
+    "activity": {
+        "mixingAMS": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "mowingTheField": {
+            "current": {
+                "state": "finished"
+            },
+            "immutable": "False"
+        },
+        "mixingVinegar": {
+            "current": {
+                "state": "inactive"
+            },
+            "immutable": "False"
+        },
+        "mixingWater": {
+            "current": {
+                "state": "inactive"
+            },
+            "immutable": "False"
+        },
+        "pullingWeedsUp": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "sprayingWeedKiller": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "weedScanning": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "moistureMonitoring": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "fieldPloughing": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "proximityMeasurementToGroundWater": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "thermalImaging": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "True"
+        },
+        "waterSpray": {
+            "current": {
+                "state": "inactive"
+            },
+            "immutable": "False"
+        },
+        "airCooling": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "sowingSeeds": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "humidifying": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "irrigation": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "mixingWaterAbsorbingMaterial": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "coolingGreenhouse": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "nitrogenMonitoring": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "surfaceTemperatureMeasurement": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "pesticideSpray": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        },
+        "stakingBoundaries": {
+            "current": {
+                "state": "running"
+            },
+            "immutable": "False"
+        }
+    }
+}

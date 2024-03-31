@@ -1,0 +1,95 @@
+{
+  "activity": {
+    "mixingAMS": [
+      {
+        "current": {
+          "state": "running"
+        },
+        "desired": {
+          "state": "finished"
+        },
+        "dependentActivities": [
+          {
+            "activity": "mixingVinegar",
+            "desired": {
+              "state": "running"
+            }
+          }
+        ]
+      }
+    ],
+    "mixingVinegar": [
+      {
+        "current": {
+          "state": "inactive"
+        },
+        "desired": {
+          "state": "running"
+        },
+        "dependentActivities": [
+          {
+            "activity": "mixingWater",
+            "desired": {
+              "state": "running"
+            }
+          }
+        ]
+      }
+    ],
+    "pullingWeedsUp": [
+      {
+        "current": {
+          "state": "inactive"
+        },
+        "desired": {
+          "state": "running"
+        },
+        "dependentActivities": [
+          {
+            "activity": "pesticideSpray",
+            "desired": {
+              "state": "running"
+            }
+          }
+        ]
+      }
+    ],
+    "sprayingWeedKiller": [
+      {
+        "current": {
+          "state": "inactive"
+        },
+        "desired": {
+          "state": "running"
+        },
+        "dependentActivities": [
+          {
+            "activity": "waterSpray",
+            "desired": {
+              "state": "inactive"
+            }
+          }
+        ]
+      }
+    ],
+
+    "sowingSeeds": [
+      {
+        "current": {
+          "state": "inactive"
+        },
+        "desired": {
+          "state": "running"
+        },
+        "dependentActivities": [
+          {
+            "activity": "mowingTheField",
+            "desired": {
+              "state": "inactive"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

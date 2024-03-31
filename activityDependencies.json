@@ -1,0 +1,191 @@
+{
+  "dependency":
+  {
+    "activity":
+      {
+        "sprayingWeedKiller": {
+          "object": "aerialDrone1",
+                "preDA":
+                    [
+                        {
+                        "activity": "mixingAMS",
+                        "desired":
+                          {
+                            "state": "finished"
+                          }
+                        },
+                      {
+                        "activity": "thermalImaging",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ],
+                "onDA":
+                    [
+                        {
+                        "activity": "waterSpray",
+                        "desired":
+                          {
+                            "state": "inactive"
+                          }
+                        },
+                      {
+                        "activity": "thermalImaging",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "weedScanning",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ],
+                "postDA":
+                    [
+                        {
+                        "activity": "waterSpray",
+                        "desired":
+                          {
+                            "state": "inactive"
+                          }
+                        },
+                      {
+                        "activity": "pullingWeedsUp",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ]
+        },
+        "sowingSeeds": {
+          "object": "sowingRobot",
+                "preDA":
+                    [
+                        {
+                        "activity": "fieldPloughing",
+                        "desired":
+                          {
+                            "state": "inactive"
+                          }
+                        }
+                    ],
+          "onDA":
+                    [
+                        {
+                        "activity": "thermalImaging",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "pesticideSpray",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "airCooling",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ]
+        },
+        "fieldPloughing": {
+          "object": "autonomousTractor",
+                "preDA":
+                    [
+                        {
+                        "activity": "stakingBoundaries",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "mixingWaterAbsorbingMaterial",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ],
+                "onDA":
+                    [
+                        {
+                        "activity": "waterSpray",
+                        "desired":
+                          {
+                            "state": "inactive"
+                          }
+                        },
+                      {
+                        "activity": "thermalImaging",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ],
+                "postDA":
+                    [
+                        {
+                        "activity": "waterSpray",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "sowingSeeds",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        },
+                      {
+                        "activity": "pesticideSpray",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ]
+        },
+        "coolingGreenhouse": {
+          "object": "airCooler",
+                "preDA":
+                    [
+                        {
+                        "activity": "thermalImaging",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ],
+          "onDA":
+                    [
+                        {
+                        "activity": "humidifying",
+                        "desired":
+                          {
+                            "state": "running"
+                          }
+                        }
+                    ]
+        }
+
+      }
+  }
+}

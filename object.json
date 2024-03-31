@@ -1,0 +1,44 @@
+{
+  "activity":
+  {
+    "sprayingWeedKiller": {
+      "object": "aerialDrone1"
+    },
+    "moistureMonitoring": {
+      "object": "moistureSensor"
+    },
+    "fieldPloughing": {
+      "object": "autonomousTractor"
+    },
+    "weedScanning": {
+      "object": "thermalWeedScanner"
+    },
+    "proximityMeasurementToGroundWater": {
+      "object": "acousticSensor"
+    },
+    "thermalImaging": {
+      "object": "aerialDrone1"
+    },
+    "surfaceTemperatureMeasurement": {
+      "object": "thermographicCamera"
+    },
+    "waterSpray": {
+      "object": "aerialDrone2"
+    },
+    "coolingGreenhouse": {
+      "object": "airCooler"
+    },
+    "sowingSeeds": {
+      "object": "sowingRobot"
+    },
+    "humidifying": {
+      "object": "humidifier"
+    },
+    "nitrogenMonitoring": {
+      "object": "nitrogenSensor"
+    },
+    "pesticideSpray": {
+      "object": "aerialDrone2"
+    }
+  }
+}

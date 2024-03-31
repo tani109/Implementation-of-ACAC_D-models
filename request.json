@@ -1,0 +1,21 @@
+{
+  "request":
+          [
+            {
+              "source": "fieldWorker",
+              "activity": "sprayingWeedKiller"
+            },
+            {
+              "source": "farmer",
+              "activity": "sowingSeeds"
+            },
+            {
+              "source": "farmManager",
+              "activity": "fieldPloughing"
+            },
+            {
+              "source": "fieldOwner",
+              "activity": "coolingGreenhouse"
+            }
+          ]
+}
